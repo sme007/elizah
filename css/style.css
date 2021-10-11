@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+ul {
+    display: flex;
+    margin-left: 50px;
+}
+ul li {
+    list-style: none;
+    padding: 12px 14px;
+}
+ul li a {
+    text-decoration: none;
+    color: #111;
+}
+ul li a:hover {
+    border-bottom: 1px solid #111;
+}
+
+.logo {
+    padding: 12px 14px;
+}
+
+/* Styling the header section */
+.header {
+    height: 300px;
+    width: 100%;
+    background: url('../img/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.headerContent {
+    width: 350px;
+    margin-left: 50px;
+}
+.alizahText {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.alizahText span {
+    color: orange;
+}
+.logo {
+    color: orange;
+    font-weight: 600;
+}
+
+/* Styling content section */
+.content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.content h4 {
+    margin-bottom: 10px;
+}
+
+.content .contentNav {
+    margin-left: -65px;
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 1px solid orange;
+}
+/* Styling product section */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.row .rowCol1 {
+    width: 19.5%;
+    height: 250px;
+    background: teal;
+}
+.rowCol1:hover {
+    opacity: 0.8;
+}
+.row .rowCol2 {
+    width: 19.5%;
+    height: 250px;
+    background: coral;
+}
+.row .rowCol3 {
+    width: 19.5%;
+    height: 250px;
+    background: lightblue;
+}
+.row .rowCol4 {
+    width: 19.5%;
+    height: 250px;
+    background: chocolate;
+}
+.row .rowCol5 {
+    width: 19.5%;
+    height: 250px;
+    background: burlywood;
+}
+
+footer {
+    background: black;
+    height: 50px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+footer a {
+    color: coral;
+    text-decoration: none;
+}
+hr{
+    margin-top: 30px;
+    width: 50px;
+}
